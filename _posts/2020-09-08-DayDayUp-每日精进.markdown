@@ -10,19 +10,20 @@ tags:
 
 1. 背景
 
-在做播放器的时候，需要在C++层向控制台输出日志。Android能够正常输出日志，但是iOS却在控制台输出不了。
+    在做播放器的时候，需要在C++层向控制台输出日志。Android能够正常输出日志，但是iOS却在控制台输出不了。
 
 2. 原因
-Android在底层打印日志的时候，使用的是android logprint,也就是Android 的日志打印方式。
 
-而iOS使用的则是printf，而不是NSLog的方式。
+    Android在底层打印日志的时候，使用的是android logprint,也就是Android 的日志打印方式。而iOS使用的则是printf，而不是NSLog的方式。
 
 3. 解决方法
-IOS在打印日志的时候，使用 iOS 的 NSLog 方法。
+
+    IOS在打印日志的时候，使用 iOS 的 NSLog 方法。
 
 4. 思考
-为什么Android知道用android的方法，而IOS没有考虑到用NSLog呢？
 
-其实编程都具有平台的对称性。 比如，Android 有 Log, iOS 有NSLog。Android有AudioTrack，iOS有AudioUnit。
-具有对称性的原因我想到的应该就是基本的功能和设计思路都是大体一致的，可能有不同的接口，有不同的使用方式。
-所以在编程的时候，尤其是跨平台编程的时候，要考虑到不同平台的类似功能的实现。
+    为什么Android知道用android的方法，而IOS没有考虑到用NSLog呢？
+    其实编程都具有平台的对称性。 比如，Android 有 Log, iOS 有NSLog。Android有AudioTrack，iOS有AudioUnit。
+    具有对称性的原因我想到的应该就是基本的功能和设计思路都是大体一致的，可能有不同的接口，有不同的使用方式。
+    所以在编程的时候，尤其是跨平台编程的时候，要考虑到不同平台的类似功能的实现。
+
