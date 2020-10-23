@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "2020-09-08 每日精进"
+title:  "2020-09-08 Day Day up"
 date:   2020-09-08
 categories: DayDayUp
-tags: 
+tags: Android,iOS
 ---
 
 ### 编程的对称性
