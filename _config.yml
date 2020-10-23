@@ -1,5 +1,5 @@
 # Site settings
-title: We Create Top!
+title: 我就是超人
 email: 814084764@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   爱钓鱼的程序员
@@ -15,7 +15,7 @@ filter: 'tag'
 # Social account
 # twitter:  username
 # weibo:    ID
-# github:   username
+github:   I-m-SuperMan
 # codepen:  username
 # dribbble: username
 
